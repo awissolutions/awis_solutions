@@ -12,17 +12,17 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                  Brilliant Toolkit to Build Next.js SaaS Websites.
+                  Effortless Solutions to Simplify Your Bookkeeping Tasks.
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  The main thrust is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel discussions and roundtables led by subject
-                  matter experts.
+                  Discover tools and strategies to streamline financial
+                  management and keep your records organized. Learn from
+                  industry experts and adopt best practices to save time and
+                  reduce errors. Take control of your business finances with
+                  ease.
                   <br /> <br />
-                  The main thrust is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel.
+                  Empower your business with tailored bookkeeping solutions that
+                  enhance accuracy and efficiency.
                 </p>
 
                 <a
