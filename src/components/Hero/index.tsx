@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
+        className="relative overflow-hidden bg-primary pt-[120px] dark:bg-slate-800 md:pt-[130px] lg:pt-[160px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap items-center">
@@ -16,10 +16,15 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
-                   Boilerplate Next.js, for awis solutions
+                  Simplifying financial management to help your business grow
+                  and thrive.
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                Streamline your bookkeeping process with our tailored solutions. Designed for efficiency, our platform offers essential tools, seamless integrations, and user-friendly features to help you manage your finances effortlessly and grow your business.
+                  Streamline your bookkeeping process with our tailored
+                  solutions. Designed for efficiency, our platform offers
+                  essential tools, seamless integrations, and user-friendly
+                  features to help you manage your finances effortlessly and
+                  grow your business.
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
@@ -27,13 +32,10 @@ const Hero = () => {
                       href="https://nextjstemplates.com/templates/play"
                       className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
                     >
-                      Book Consultation 
+                      Book Consultation
                     </Link>
                   </li>
-                  
                 </ul>
-
-                
               </div>
             </div>
 
