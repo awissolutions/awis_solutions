@@ -17,7 +17,7 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "awis solutions",
+    title: "Audit and Assurance Services",
     paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
     btn: "Learn More",
     btnLink: "/#",
@@ -38,7 +38,7 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Modern Design",
+    title: "Tax Advisory and Compliance",
     paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
     btn: "Learn More",
     btnLink: "/#",
@@ -91,7 +91,7 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "awis solutions",
+    title: "book keeping",
     paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
     btn: "Learn More",
     btnLink: "/#",
