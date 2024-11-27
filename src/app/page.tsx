@@ -13,6 +13,9 @@ import Testimonials from "@/components/Testimonials";
 import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
+// for required for deploying on cloudflare
+export const runtime = "edge";
+
 export const metadata: Metadata = {
   title: "awis solutions",
   description: "Next.js SaaS Boilerplate for awis solutions",
