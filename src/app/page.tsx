@@ -14,7 +14,7 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 // for required for deploying on cloudflare
-export const runtime = "edge";
+// export const runtime = "edge";
 
 export const metadata: Metadata = {
   title: "awis solutions",
