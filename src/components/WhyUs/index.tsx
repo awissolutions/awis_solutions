@@ -51,7 +51,7 @@ const WhyUs = () => {
   return (
     <section
       id="why-us"
-      className="bg-gray-1 pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]"
+      className="bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]"
     >
       <div className="container">
         <div className="mb-10 text-center">
@@ -69,7 +69,7 @@ const WhyUs = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="relative rounded-lg border border-primary p-6 text-black shadow-lg transition hover:bg-gray-3 dark:hover:bg-primary dark:text-white"
+              className="relative rounded-lg border border-primary dark:hover:bg-blue-950 p-6 text-black shadow-lg transition hover:bg-gray-3 dark:hover:bg-primary dark:text-white"
             >
               <FontAwesomeIcon
                 icon={feature.icon}

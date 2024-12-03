@@ -41,9 +41,10 @@ const Industries = () => {
               key={i}
               className="w-64 h-64 flex flex-col justify-center items-center rounded-lg shadow-lg hover:shadow-xl transition"
               style={{
-                backgroundColor: "rgb(55, 88, 249)",
+                backgroundColor: "rgb(23 37 84)",
                 // border:"solid white 1px",
                 color: "white",
+                
               }}
             >
               {/* Font Awesome Solid Icon */}
