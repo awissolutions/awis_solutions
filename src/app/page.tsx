@@ -33,8 +33,8 @@ export default function Home() {
       <Hero />
       <Features />
       <Industries />
-      <Boarding />
       <About />
+      <Boarding />
       <CallToAction />
       <Pricing />
       <Testimonials />
