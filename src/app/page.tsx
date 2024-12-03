@@ -7,11 +7,14 @@ import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import Industries from "@/components/Industries";
 import Pricing from "@/components/Pricing";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
 import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import Boarding from "@/components/Boarding";
 
 // for required for deploying on cloudflare
 // export const runtime = "edge";
@@ -29,6 +32,8 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
+      <Industries />
+      <Boarding />
       <About />
       <CallToAction />
       <Pricing />
