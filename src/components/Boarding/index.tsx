@@ -25,24 +25,25 @@ const Boarding = () => {
   ];
 
   return (
-    <section className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
+    <section className="pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px] ">
       <div className="container">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-800 dark:text-white">
             You’re Just 3 Steps Away
           </h2>
-          <p className="mt-4 text-gray-600 dark:text-gray-400">
+          <p className="mt-4 text-gray-600 dark:text-gray-400" >
             It’s easy to get started. Let’s break down the 3 simple steps to get you the results you need.
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-6 mt-12 lg:mt-20">
+        <div className="flex flex-wrap justify-center gap-6 mt-12 lg:mt-20 ">
           {steps.map((step, i) => (
             <div
               key={i}
-              className="w-64 h-64 flex flex-col justify-center items-center rounded-lg shadow-lg hover:shadow-xl transition"
+              className="w-64 h-64 flex flex-col justify-center items-center   rounded-lg shadow-lg hover:shadow-xl transition"
               style={{
                 backgroundColor: "rgb(55, 88, 249)", // Blue background color
+                // border:"solid white 1px",
                 color: "white", // Text color white
               }}
             >

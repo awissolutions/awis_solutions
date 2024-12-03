@@ -23,7 +23,7 @@ const Industries = () => {
   ];
 
   return (
-    <section className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
+    <section className="pb-8 pt-20 dark:bg-slate-800 lg:pb-[70px] lg:pt-[120px]">
       <div className="container">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-800 dark:text-white">
@@ -42,6 +42,7 @@ const Industries = () => {
               className="w-64 h-64 flex flex-col justify-center items-center rounded-lg shadow-lg hover:shadow-xl transition"
               style={{
                 backgroundColor: "rgb(55, 88, 249)",
+                // border:"solid white 1px",
                 color: "white",
               }}
             >

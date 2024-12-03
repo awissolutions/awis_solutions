@@ -15,6 +15,7 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import Boarding from "@/components/Boarding";
+import WhyUs from "@/components/WhyUs";
 
 // for required for deploying on cloudflare
 // export const runtime = "edge";
@@ -32,6 +33,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
+      <WhyUs/>
       <Industries />
       <About />
       <Boarding />
