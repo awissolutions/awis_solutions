@@ -23,7 +23,7 @@ const Industries = () => {
   ];
 
   return (
-    <section className="pb-8 pt-20 dark:bg-slate-800 lg:pb-[70px] lg:pt-[120px]">
+    <section className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
       <div className="container">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-800 dark:text-white">
