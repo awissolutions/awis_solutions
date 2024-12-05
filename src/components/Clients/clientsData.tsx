@@ -2,17 +2,17 @@ import { Client } from "@/types/client";
 export const clientsData: Client[] = [
   {
     id: 1,
-    title: "GrayGrids",
-    logo: "/images/brands/graygrids.svg",
-    logoWhite: "/images/brands/graygrids-white.svg",
-    link: "https://graygrids.com/",
+    title: "xero",
+    logo: "/images/brands/xero.svg",
+    logoWhite: "/images/brands/xero.svg",
+    link: "https://xero.com/",
   },
   {
     id: 2,
-    title: "Lineicons",
-    logo: "images/brands/lineicons.svg",
-    logoWhite: "/images/brands/lineicons-white.svg",
-    link: "https://lineicons.com/",
+    title: "quickBooks",
+    logo: "images/brands/quickbooks.svg",
+    logoWhite: "/images/brands/quickbooks.svg",
+    link: "https://quickbooks.com/",
   },
   {
     id: 3,
