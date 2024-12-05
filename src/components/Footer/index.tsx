@@ -58,7 +58,7 @@ const Footer = () => {
                 </a>
                 <a
                   aria-label="social link"
-                  href="https://www.linkedin.com/in/awis-solutions/"
+                  href="/#"
                   className="px-3 text-gray-7 hover:text-white"
                 >
                   <svg
@@ -76,7 +76,8 @@ const Footer = () => {
                 </a>
                 <a
                   aria-label="social link"
-                  href="/#"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/awis-solutions/"
                   className="px-3 text-gray-7 hover:text-white"
                 >
                   <svg
