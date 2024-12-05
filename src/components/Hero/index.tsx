@@ -19,7 +19,7 @@ const Hero = () => {
                   Simplifying financial management to help your business grow
                   and thrive.
                 </h1>
-                <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
+                <p className="mx-auto mb-9 max-w-[600px] text-base font-sans text-white sm:text-lg sm:leading-[1.44]">
                   Streamline your bookkeeping process with our tailored
                   solutions. Designed for efficiency, our platform offers
                   essential tools, seamless integrations, and user-friendly

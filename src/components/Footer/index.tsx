@@ -21,8 +21,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-8 max-w-[270px] text-base text-gray-7">
-                We create digital experiences for brands and companies by using
-                technology.
+              We provide accurate and efficient bookkeeping solutions for businesses and organizations through the use of reliable financial management tools and technology.
               </p>
               <div className="-mx-3 flex items-center">
                 <a
@@ -291,14 +290,14 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/3 lg:w-1/2">
               <div className="my-1 flex justify-center md:justify-end">
                 <p className="text-base text-gray-7">
-                  Designed and Developed by{" "}
+                  {/* Designed and Developed by{" "} */}
                   <a
-                    href="https://tailgrids.com"
+                    href="/"
                     rel="nofollow noopner noreferrer"
-                    target="_blank"
+                    // target="_blank"
                     className="text-gray-1 hover:underline"
                   >
-                    TailGrids and Next.js Templates
+                    Awis Solutions
                   </a>
                 </p>
               </div>
