@@ -56,10 +56,10 @@ const WhyUs = () => {
       <div className="container">
         <div className="mb-10 text-center">
           <h2 className="text-3xl font-bold text-dark dark:text-white">
-            Why Choose awis solutions Bookkeeping And Accounting Services?
+            Why Choose Awis Solutions Bookkeeping And Accounting Services?
           </h2>
           <p className="mt-4 text-base text-body-color dark:text-dark-6">
-            At awis solutions, we understand the unique challenges faced by small
+            At Awis Solutions, we understand the unique challenges faced by small
             business owners. Our services go beyond numbers, providing value
             that moves your business forward.
           </p>
