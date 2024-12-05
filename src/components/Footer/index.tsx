@@ -58,7 +58,7 @@ const Footer = () => {
                 </a>
                 <a
                   aria-label="social link"
-                  href="/#"
+                  href="https://www.linkedin.com/in/awis-solutions/"
                   className="px-3 text-gray-7 hover:text-white"
                 >
                   <svg
@@ -292,7 +292,7 @@ const Footer = () => {
                 <p className="text-base text-gray-7">
                   {/* Designed and Developed by{" "} */}
                   <a
-                    href="/"
+                    href="/#"
                     rel="nofollow noopner noreferrer"
                     // target="_blank"
                     className="text-gray-1 hover:underline"
