@@ -3,7 +3,7 @@ import SectionTitle from "../Common/SectionTitle";
 const TermsOfService = () => {
   return (
     <section className="relative z-20 overflow-hidden bg-white pb-8 pt-20 dark:bg-dark lg:pb-[50px] lg:pt-[120px]">
-      <div className="container">
+      <div className="container mt-4">
         <SectionTitle
           subtitle="Terms of Service"
           title="Our Terms of Service"
