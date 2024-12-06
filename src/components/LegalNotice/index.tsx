@@ -34,7 +34,7 @@ const LegalNotice = () => {
             </h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">
               All content on this website, including text, images, graphics,
-              logos, and code, is the property of Your Bookkeeping Co. or its
+              logos, and code, is the property of Awis Solutions. or its
               licensors. Unauthorized use, reproduction, or distribution of this
               content is strictly prohibited. Any trademarks displayed are the
               property of their respective owners.
@@ -60,7 +60,7 @@ const LegalNotice = () => {
               Limitation of Liability
             </h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">
-              Your Bookkeeping Co. shall not be held liable for any damages
+              Awis Solutions shall not be held liable for any damages
               resulting from the use or inability to use this website, including
               but not limited to direct, indirect, incidental, or consequential
               damages. This limitation applies to the fullest extent permitted
