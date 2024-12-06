@@ -30,9 +30,9 @@ export default function Home() {
 
   return (
     <main>
-      <ScrollUp />
+       <ScrollUp />
       <Hero />
-      <Features />
+     <Features />
       <WhyUs/>
       <Industries />
       <About />
@@ -44,7 +44,7 @@ export default function Home() {
       <Team />
       <HomeBlogSection posts={posts} />
       <Contact />
-      <Clients />
+      <Clients /> 
     </main>
   );
 }
