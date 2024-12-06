@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import LegalNotice from "@/components/LegalNotice";
+import TermsOfService from "@/components/Terms";
 
 import { Metadata } from "next";
 
@@ -12,8 +13,8 @@ export const metadata: Metadata = {
 const Page = () => {
   return (
     <>
-      <Breadcrumb pageName="Legal Notice" />
-      <LegalNotice/>
+      <Breadcrumb pageName="Terms of Service" />
+      <TermsOfService/>
     </>
   );
 };
