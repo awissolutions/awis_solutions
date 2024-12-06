@@ -268,19 +268,19 @@ const Footer = () => {
               <div className="my-1">
                 <div className="-mx-3 flex items-center justify-center md:justify-start">
                   <a
-                    href="/#"
+                    href="/privacy-policy"
                     className="px-3 text-base text-gray-7 hover:text-white hover:underline"
                   >
                     Privacy policy
                   </a>
                   <a
-                    href="/#"
+                    href="/legal-notice"
                     className="px-3 text-base text-gray-7 hover:text-white hover:underline"
                   >
                     Legal notice
                   </a>
                   <a
-                    href="/#"
+                    href="/terms-of-service"
                     className="px-3 text-base text-gray-7 hover:text-white hover:underline"
                   >
                     Terms of service
