@@ -14,7 +14,7 @@ const LegalNotice = () => {
 
         <div className="mt-[40px] space-y-8">
           <div>
-            <h3 className="text-lg font-semibold text-dark dark:text-white">
+            {/* <h3 className="text-lg font-semibold text-dark dark:text-white">
               Company Information
             </h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">
@@ -25,7 +25,7 @@ const LegalNotice = () => {
               <strong>Phone:</strong> (+92) 343 0057856 <br />
               <strong>Business Registration Number:</strong> 987654321 <br />
               <strong>Tax Identification Number (TIN):</strong> 12-3456789
-            </p>
+            </p> */}
           </div>
 
           <div>
