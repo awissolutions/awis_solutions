@@ -2,7 +2,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import LegalNotice from "@/components/LegalNotice";
 import Accounting from "@/components/services/Accounting";
 import TermsOfService from "@/components/Terms";
-
+import OutsourcedAccountingServices from "@/components/services/OutsourcedAccountingServices"
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -16,6 +16,7 @@ const Page = () => {
     <>
       {/* <Breadcrumb pageName="Terms of Service" /> */}
       <Accounting/>
+      <OutsourcedAccountingServices/>
     </>
   );
 };
