@@ -44,8 +44,8 @@ const menuData: Menu[] = [
       },
       {
         id: 62,
-        title: "Auditing",
-        path: "/pricing",
+        title: "Accounting",
+        path: "services/accounting",
         newTab: false,
       },
       {
