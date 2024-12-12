@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Accounting = () => {
   return (
-    <section className="bg-primary text-white flex dark:bg-dark-2 justify-center items-center min-h-screen px-8">
+    <section className="bg-primary sm:pt-0 text-white flex dark:bg-dark-2 justify-center items-center min-h-screen px-8">
       {/* Left Section */}
       <div className="flex flex-col justify-center max-w-md">
         <h1 className="text-4xl font-bold leading-tight">
