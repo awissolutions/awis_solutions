@@ -1,10 +1,11 @@
 // src/app/accounting-solutions/page.js
+import Image from "next/image";
 import React from "react";
 
 export default function WhyOutsourcedAccounting() {
   return (
-    <div className="dark:bg-dark-2">
-      <div className=" mx-auto flex max-w-6xl flex-col items-center gap-8 px-4 py-8 lg:flex-row  ">
+    <div className="dark:bg-dark-2 ">
+      <div className=" mx-auto flex max-w-6xl flex-col-reverse items-center gap-8 px-4 py-8 lg:flex-row  ">
         {/* Left Section */}
         <div className="flex-1">
           <h2 className="mb-4 text-3xl font-bold text-dark dark:text-white">
@@ -45,14 +46,16 @@ export default function WhyOutsourcedAccounting() {
         {/* Right Section */}
         <div className="relative flex-1">
           <div className="overflow-hidden rounded-lg shadow-md">
-            <img
+            <Image
+              width={400}
+              height={700}
               src="/images/services/accounting/accountant.png"
               alt="Professional accountant"
               className="h-64 w-full object-cover lg:h-auto"
             />
           </div>
-          <div className="absolute left-8 top-8 max-w-sm rounded-lg bg-transparent p-4 shadow-lg ">
-            <h3 className="font-semibold text-dark dark:text-white">
+          <div className="absolute left-8 hidden lg:block top-8 max-w-sm rounded-lg bg-transparent p-4 shadow-lg ">
+            <h3 className="font-semibold text-dark dark:text-black">
               Full-Spectrum Accounting
             </h3>
             <p className="mt-2 text-sm text-gray-600">
