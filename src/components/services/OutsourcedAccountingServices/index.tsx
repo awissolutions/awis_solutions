@@ -15,7 +15,7 @@ const AccordionItem = ({
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="overflow-hidden rounded-3xl border border-gray-300 dark:border-dark  dark:bg-dark mt-4">
+    <div className="mt-4 overflow-hidden rounded-3xl border border-gray-300  dark:border-dark dark:bg-dark">
       {/* Accordion Header */}
       <div
         onClick={() => setIsExpanded(!isExpanded)}
@@ -84,27 +84,33 @@ export default function AccountingServicesPage() {
   ];
 
   return (
-    <div className="container p-6 mt-10 mb-10 dark:bg-dark border rounded-3xl	">
-      {/* Header Grid */}
-      <div className="mb-10 grid gap-6 md:grid-cols-[2fr_3fr]">
-        <h1 className="text-3xl font-bold text-black dark:text-white">
-          Outsourced Accounting <br /> Services
-        </h1>
-        <p className="text-dark dark:text-white">
-          Streamline your financial operations with our comprehensive outsourced
-          accounting services. From meticulous record-keeping to insightful
-          reporting, we provide the tools and expertise you need to make
-          informed business decisions.
-        </p>
-      </div>
+    <div className="dark:bg-dark pb-16 pt-16">
+      <div className="container  rounded-3xl border p-6 dark:bg-dark	">
+        {/* Header Grid */}
+        <div className="mb-10 grid gap-6 md:grid-cols-[2fr_3fr]">
+          <h1 className="text-3xl font-bold text-black dark:text-white">
+            Outsourced Accounting <br /> Services
+          </h1>
+          <p className="text-dark dark:text-white">
+            Streamline your financial operations with our comprehensive
+            outsourced accounting services. From meticulous record-keeping to
+            insightful reporting, we provide the tools and expertise you need to
+            make informed business decisions.
+          </p>
+        </div>
 
-      {/* Services Grid */}
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {services.map((service, index) => (
-          <AccordionItem key={index} title={service.title} icon={service.icon}>
-            {service.content}
-          </AccordionItem>
-        ))}
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
+          {services.map((service, index) => (
+            <AccordionItem
+              key={index}
+              title={service.title}
+              icon={service.icon}
+            >
+              {service.content}
+            </AccordionItem>
+          ))}
+        </div>
       </div>
     </div>
   );
