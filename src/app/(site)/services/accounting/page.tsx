@@ -14,6 +14,8 @@ export const metadata: Metadata = {
 const Page = () => {
   return (
     <>
+          <Breadcrumb pageName="Contact Page" />
+
       {/* <Breadcrumb pageName="Terms of Service" /> */}
       <Accounting />
       <OutsourcedAccountingServices />
