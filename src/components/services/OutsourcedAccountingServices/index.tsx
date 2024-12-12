@@ -15,7 +15,7 @@ const AccordionItem = ({
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="overflow-hidden rounded-3xl border border-gray-300 dark:border-gray-700">
+    <div className="overflow-hidden rounded-3xl border border-gray-300 dark:border-dark  dark:bg-dark mt-4">
       {/* Accordion Header */}
       <div
         onClick={() => setIsExpanded(!isExpanded)}
@@ -34,7 +34,7 @@ const AccordionItem = ({
 
       {/* Accordion Content */}
       {isExpanded && (
-        <div className="bg-gray-50 p-4 text-gray-700 dark:bg-gray-800 dark:text-gray-300">
+        <div className="bg-gray-50 p-4 text-dark dark:bg-dark dark:text-gray-300">
           {children}
         </div>
       )}
@@ -84,13 +84,13 @@ export default function AccountingServicesPage() {
   ];
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="container p-6 mt-10 mb-10 dark:bg-dark border rounded-3xl	">
       {/* Header Grid */}
       <div className="mb-10 grid gap-6 md:grid-cols-[2fr_3fr]">
         <h1 className="text-3xl font-bold text-black dark:text-white">
           Outsourced Accounting <br /> Services
         </h1>
-        <p className="text-gray-800 dark:text-gray-300">
+        <p className="text-dark dark:text-white">
           Streamline your financial operations with our comprehensive outsourced
           accounting services. From meticulous record-keeping to insightful
           reporting, we provide the tools and expertise you need to make
