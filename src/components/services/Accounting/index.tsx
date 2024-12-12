@@ -19,7 +19,7 @@ const Accounting = () => {
       </div>
 
       {/* Right Section */}
-      <div className="relative w-1/2 flex justify-center items-center hidden lg:flex md:flex">
+      <div className="relative w-1/2 hidden justify-center items-center  lg:flex md:flex">
         <div className="bg-transparent rounded-lg w-4/5 h-4/5 flex justify-center items-center">
           <Image
             src="/images/services/accounting/calculator-1.png"
