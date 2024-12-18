@@ -233,7 +233,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/#"
+                    href="https://blog.awissolutions.com"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Blogs
