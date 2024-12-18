@@ -5,7 +5,7 @@ type ServiceCardProps = {
   description: string;
   bgColor: string;
   icon: React.ReactNode;
-  href?: string; // Make href optional
+  href?: string;
 };
 
 const ServiceCard: React.FC<ServiceCardProps> = ({
@@ -28,16 +28,16 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 
   return (
     <div
-      className={`flex flex-col justify-between rounded-lg p-6 shadow-md ${bgColor} text-white`}
+      className={`flex flex-col justify-between rounded-lg p-6 shadow-md ${bgColor} text-white h-full transform transition-transform duration-300 hover:scale-105`}
     >
       <div className="flex items-center space-x-3">
         <div className="text-3xl">{icon}</div>
         <h3 className="text-xl font-bold">{title}</h3>
       </div>
-      <p className="mt-4 text-sm">{description}</p>
+      <p className="mt-4 text-sm flex-grow">{description}</p>
       <a 
         href={serviceLink} 
-        className="mt-4 self-end"
+        className="mt-4 self-end block"
       >
         <button
           className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-200 focus:outline-none"
@@ -52,14 +52,14 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 
 const ServicesGrid: React.FC = () => {
   return (
-    <div className="dark:bg-dark-2">
-      <div className="mx-52 grid grid-cols-1 gap-6 p-6 md:grid-cols-3">
+    <div className="dark:bg-dark-2 w-full">
+      <div className="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-12">
         <ServiceCard 
           title="Accounting"
           description="Minimize stress, save time and money, and impress stakeholders with streamlined accounting operations managed by your dedicated team."
           bgColor="bg-purple-600"
           icon={<i className="fas fa-calculator" />}
-          href="/services/accounting" // Optional custom href
+          href="/services/accounting"
         />
         
         <ServiceCard
@@ -67,7 +67,7 @@ const ServicesGrid: React.FC = () => {
           description="Gain actionable insights with comprehensive, customized financial reporting that provides clear visibility into your business performance."
           bgColor="bg-blue-500"
           icon={<i className="fas fa-file-alt" />}
-          href="/services/reporting" // Optional custom href
+          href="/services/reporting"
         />
         
         <ServiceCard
@@ -75,7 +75,7 @@ const ServicesGrid: React.FC = () => {
           description="Maintain accurate, up-to-date financial records with our meticulous bookkeeping solutions, ensuring compliance and financial clarity."
           bgColor="bg-green-500"
           icon={<i className="fas fa-book" />}
-          href="/services/bookkeeping" // Optional custom href
+          href="/services/bookkeeping"
         />
         
         <ServiceCard
@@ -83,7 +83,7 @@ const ServicesGrid: React.FC = () => {
           description="Optimize your business processes with our expert ERP implementation and consulting services, tailored to streamline your operations and drive efficiency."
           bgColor="bg-indigo-600"
           icon={<i className="fas fa-industry" />}
-          href="/services/erp-implementation" // Optional custom href
+          href="/services/erp-implementation"
         />
         
         <ServiceCard
@@ -91,7 +91,7 @@ const ServicesGrid: React.FC = () => {
           description="Strategically manage your supply chain with our comprehensive demand forecasting and procurement solutions to reduce costs and improve operational efficiency."
           bgColor="bg-red-500"
           icon={<i className="fas fa-shopping-cart" />}
-          href="/services/demand-procurement-management" // Optional custom href
+          href="/services/demand-procurement-management"
         />
         
         <ServiceCard
@@ -99,7 +99,7 @@ const ServicesGrid: React.FC = () => {
           description="Leverage cutting-edge electronic design automation tools and expertise to accelerate your product development and innovation cycles."
           bgColor="bg-teal-500"
           icon={<i className="fas fa-microchip" />}
-          href="/services/electornic-design-automation" // Optional custom href
+          href="/services/electronic-design-automation"
         />
       </div>
     </div>
