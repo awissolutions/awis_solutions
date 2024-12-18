@@ -1,5 +1,4 @@
 import About from "@/components/About";
-import HomeBlogSection from "@/components/Blog/HomeBlogSection";
 import CallToAction from "@/components/CallToAction";
 import Clients from "@/components/Clients";
 import ScrollUp from "@/components/Common/ScrollUp";
@@ -11,8 +10,7 @@ import Industries from "@/components/Industries";
 import Pricing from "@/components/Pricing";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
-import { getAllPosts } from "@/utils/markdown";
-import { Metadata } from "next";
+\import { Metadata } from "next";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import Boarding from "@/components/Boarding";
 import WhyUs from "@/components/WhyUs";
