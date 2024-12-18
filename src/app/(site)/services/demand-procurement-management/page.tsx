@@ -3,7 +3,7 @@ import React from 'react'
 function page() {
   return (
     <div>
-      <h2> bookkeeping service page</h2>
+      <h2> demand and procedure</h2>
     </div>
   )
 }
