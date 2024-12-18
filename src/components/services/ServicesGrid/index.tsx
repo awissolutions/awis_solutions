@@ -18,7 +18,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     return title
       .toLowerCase()
       .replace(/\s+/g, '-')  // Replace spaces with hyphens
-      .replace(/[^a-z0-9-]/g, '');  // Remove non-alphanumeric characters except hyphens
+      // .replace(/[^a-z0-9-]/g, '');  // Remove non-alphanumeric characters except hyphens
   };
 
   return (
@@ -49,38 +49,23 @@ const ServicesGrid: React.FC = () => {
   return (
     <div className="dark:bg-dark-2">
       <div className="mx-52 grid grid-cols-1 gap-6 p-6 md:grid-cols-3">
-        <ServiceCard
-          title="CFO Services"
-          description="You need a partner that can steer you through pivotal moments. Through budgeting and forecasting, cash flow management, and strategic planning, our CFOs ensure your financial strategy is effective."
-          bgColor="bg-gray-100 text-black"
-          icon={<i className="fas fa-chart-line" />}
-        />
-        <ServiceCard
+       
+        <ServiceCard 
           title="Accounting"
           description="Minimize stress, save time and money, and impress stakeholders with streamlined accounting operations managed by your dedicated team."
           bgColor="bg-purple-600"
           icon={<i className="fas fa-calculator" />}
         />
+        
+      
         <ServiceCard
-          title="Payroll Services"
-          description="Streamline your payroll processes with our fast, accurate, and compliant solutions tailored for your business needs."
-          bgColor="bg-yellow-400 text-black"
-          icon={<i className="fas fa-money-check" />}
-        />
-        <ServiceCard
-          title="Business Tax Services"
-          description="Take the guesswork out of taxes. Our expert services optimize your strategy, maximize benefits, and minimize liabilities, giving you peace of mind."
-          bgColor="bg-yellow-100 text-black"
-          icon={<i className="fas fa-dollar-sign" />}
-        />
-        <ServiceCard
-          title="Reporting Services"
+          title="Reporting"
           description="Gain actionable insights with comprehensive, customized financial reporting that provides clear visibility into your business performance."
           bgColor="bg-blue-500"
           icon={<i className="fas fa-file-alt" />}
         />
         <ServiceCard
-          title="Bookkeeping Services"
+          title="Bookkeeping"
           description="Maintain accurate, up-to-date financial records with our meticulous bookkeeping solutions, ensuring compliance and financial clarity."
           bgColor="bg-green-500"
           icon={<i className="fas fa-book" />}
