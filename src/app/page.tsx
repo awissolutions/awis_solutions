@@ -10,7 +10,7 @@ import Industries from "@/components/Industries";
 import Pricing from "@/components/Pricing";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
-\import { Metadata } from "next";
+import { Metadata } from "next";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import Boarding from "@/components/Boarding";
 import WhyUs from "@/components/WhyUs";
@@ -21,7 +21,7 @@ import Accounting from "@/components/services/Accounting";
 
 export const metadata: Metadata = {
   title: "awis solutions",
-  description: "Next.js SaaS Boilerplate for awis solutions",
+  description: "awis solutions,financial management to help your business grow and thrive",
 };
 
 export default function Home() {
