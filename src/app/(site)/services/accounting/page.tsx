@@ -7,6 +7,7 @@ import { Metadata } from "next";
 import WhyOutsourcedAccounting from "@/components/services/WhyOutsourcedAccounting";
 import AccountingFaq from "@/components/services/AccountingFaq";
 import ChooseOutsource from "@/components/services/ChooseOutsource";
+import CallToAction from "@/components/CallToAction";
 
 export const metadata: Metadata = {
   title: "Services | Accounting  | Awis Solutions",
@@ -24,6 +25,7 @@ const Page = () => {
       <WhyOutsourcedAccounting />
       <ChooseOutsource/>
       <AccountingFaq/>
+      <CallToAction/>
     </>
   );
 };
