@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 const AccountingFaq = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null); // Explicitly define the type as number | null
 
   const faqData = [
     {
