@@ -1,11 +1,17 @@
+import Breadcrumb from '@/components/Common/Breadcrumb'
+import Features from '@/components/services/Reporting/Features'
+import HeroReporting from '@/components/services/Reporting/HeroReporting'
+import ReportTypes from '@/components/services/Reporting/ReportTypes'
 import React from 'react'
 
 function page() {
   return (
-    <div>
-      <h2> reporting service page</h2>
-    </div>
-  )
+<>
+<Breadcrumb pageName='Reporting services'/>
+{/* <HeroReporting/> */}
+<ReportTypes/>
+<Features/>
+</>  )
 }
 
 export default page
