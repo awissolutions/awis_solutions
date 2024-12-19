@@ -8,7 +8,7 @@ import {
   Clock,
   Shield,
 } from "lucide-react";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import  {Card} from "@/components/ui/card";
 
 // Hero Section Component
 const Hero = () => {
