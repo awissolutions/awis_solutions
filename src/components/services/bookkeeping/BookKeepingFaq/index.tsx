@@ -56,7 +56,7 @@ const BookkeepingServices = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           <div>
             <h2 className="text-dark dark:text-white text-3xl font-bold leading-tight sm:text-4xl md:text-[40px] mb-6">
-              Comprehensive Online Bookkeeping Services
+              Comprehensive Online <span className='text-primary'>BookKeeping</span> Services
             </h2>
           </div>
           <div>
