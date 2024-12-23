@@ -5,7 +5,7 @@ export default function Features() {
   const features = [
     {
       title: "Demand Forecasting",
-      description: "AI-powered demand prediction and inventory optimization",
+      description: "Demand prediction and inventory optimization",
       icon: <BarChart className="h-12 w-12 text-primary" />,
       details: [
         "Predictive analytics",
