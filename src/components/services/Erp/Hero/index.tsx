@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="flex flex-col items-center gap-12 lg:flex-row">
           <div className="lg:w-1/2">
             <h1 className="mb-6 text-4xl font-bold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-              Transform Your Business with Expert ERP Solutions
+              Transform Your Business with Expert <span className="text-primary">ERP</span> Solutions
             </h1>
             <p className="mb-8 text-xl text-gray-600 dark:text-gray-300">
               Streamline operations, boost efficiency, and drive growth with our
