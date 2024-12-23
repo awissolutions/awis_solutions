@@ -17,7 +17,7 @@ export default function Hero() {
           <div className="space-y-8">
             <div className="inline-flex items-center rounded-full bg-primary/10 px-4 py-2 text-primary">
               <TrendingUp className="mr-2 h-4 w-4" />
-              <span>Demand Procurement Platform</span>
+              <span>Demand Procurement</span>
             </div>
             <h1 className="text-4xl font-bold leading-tight md:text-6xl">
               Optimize Your <span className="text-primary">Procurement Process</span>
