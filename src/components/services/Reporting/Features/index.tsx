@@ -40,7 +40,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="bg-white dark:bg-gray-800 py-20">
+    <section className="bg-white dark:bg-dark py-20">
       <div className="container max-w-6xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Powerful Features</h2>

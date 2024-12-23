@@ -21,7 +21,7 @@ const HeroReporting = () => {
   ];
 
   return (
-    <section className="font-inter bg-gradient-to-b from-gray-50 to-white pb-20 pt-20 dark:from-gray-900 dark:to-gray-800">
+    <section className="font-inter bg-white pb-20 pt-20 dark:bg-dark">
       <div className="container mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex flex-col items-center gap-12 lg:flex-row">
           <div className="lg:w-1/2">
