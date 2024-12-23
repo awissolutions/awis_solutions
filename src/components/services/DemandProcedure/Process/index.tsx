@@ -35,7 +35,7 @@ export default function Process() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, index) => (
             <Card key={index} className="relative p-6">
-              <div className="mb-4 text-4xl font-bold dark:text-primary ">
+              <div className="mb-4 text-4xl font-bold dark:text-primary  text-primary">
                 {step.number}
               </div>
               <h3 className="mb-2 text-xl font-semibold">{step.title}</h3>
