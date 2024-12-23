@@ -43,7 +43,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
           className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-200 focus:outline-none"
           aria-label={`Learn more about ${title}`}
         >
-          →
+        more
         </button>
       </a>
     </div>
