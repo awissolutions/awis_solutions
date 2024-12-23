@@ -57,7 +57,7 @@ const ServicesGrid: React.FC = () => {
         <ServiceCard 
           title="Accounting"
           description="Minimize stress, save time and money, and impress stakeholders with streamlined accounting operations managed by your dedicated team."
-          bgColor="bg-purple-600"
+          bgColor="bg-purple-600 dark:bg-purple-700"
           icon={<i className="fas fa-calculator" />}
           href="/services/accounting"
         />
@@ -65,7 +65,7 @@ const ServicesGrid: React.FC = () => {
         <ServiceCard
           title="Reporting"
           description="Gain actionable insights with comprehensive, customized financial reporting that provides clear visibility into your business performance."
-          bgColor="bg-blue-500"
+          bgColor="bg-blue-500 dark:bg-blue-600"
           icon={<i className="fas fa-file-alt" />}
           href="/services/reporting"
         />
@@ -73,7 +73,7 @@ const ServicesGrid: React.FC = () => {
         <ServiceCard
           title="Bookkeeping"
           description="Maintain accurate, up-to-date financial records with our meticulous bookkeeping solutions, ensuring compliance and financial clarity."
-          bgColor="bg-green-500"
+          bgColor="bg-green-500 dark:bg-green-600"
           icon={<i className="fas fa-book" />}
           href="/services/bookkeeping"
         />
@@ -81,7 +81,7 @@ const ServicesGrid: React.FC = () => {
         <ServiceCard
           title="ERP Implementation & Consulting"
           description="Optimize your business processes with our expert ERP implementation and consulting services, tailored to streamline your operations and drive efficiency."
-          bgColor="bg-indigo-600"
+          bgColor="bg-indigo-600 dark:bg-indigo-700"
           icon={<i className="fas fa-industry" />}
           href="/services/erp-implementation"
         />
@@ -89,7 +89,7 @@ const ServicesGrid: React.FC = () => {
         <ServiceCard
           title="Demand & Procurement Management"
           description="Strategically manage your supply chain with our comprehensive demand forecasting and procurement solutions to reduce costs and improve operational efficiency."
-          bgColor="bg-red-500"
+          bgColor="bg-red-500 dark:bg-red-600"
           icon={<i className="fas fa-shopping-cart" />}
           href="/services/demand-procurement-management"
         />
@@ -97,7 +97,7 @@ const ServicesGrid: React.FC = () => {
         <ServiceCard
           title="Electronic Design Automation"
           description="Leverage cutting-edge electronic design automation tools and expertise to accelerate your product development and innovation cycles."
-          bgColor="bg-teal-500"
+          bgColor="bg-teal-500 dark:bg-teal-600"
           icon={<i className="fas fa-microchip" />}
           href="/services/electronic-design-automation"
         />

@@ -16,9 +16,9 @@ export default function Hero  ()  {
             Accelerate your chip design workflow with powerful EDA tools
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
-            <Button size="lg">Start Trial</Button>
-            <Button variant="outline" size="lg">
-              Watch Demo
+            <Button size="lg" className="bg-primary hover:bg-slate-100 hover:text-black">Start Now</Button>
+            <Button variant="outline" size="lg" className="dark:hover:bg-dark">
+              Request Demo
             </Button>
           </div>
         </div>
