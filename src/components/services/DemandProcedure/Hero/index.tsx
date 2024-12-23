@@ -1,8 +1,8 @@
 import {
-  LineChart,
-  BarChart,
-  PieChart,
+  ShoppingCart,
   TrendingUp,
+  FileText,
+  Settings,
   ArrowRight,
 } from "lucide-react";
 import { Card } from "@/components/ui/card";
@@ -17,58 +17,56 @@ export default function Hero() {
           <div className="space-y-8">
             <div className="inline-flex items-center rounded-full bg-primary/10 px-4 py-2 text-primary">
               <TrendingUp className="mr-2 h-4 w-4" />
-              <span>Financial EDA Platform</span>
+              <span>Demand Procurement Platform</span>
             </div>
             <h1 className="text-4xl font-bold leading-tight md:text-6xl">
-              Design <span className="text-primary">Trading Systems</span> With
-              Precision
+              Optimize Your <span className="text-primary">Procurement Process</span>
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Automate your trading strategies with advanced financial engineering
-              tools
+              End-to-end solutions for efficient demand forecasting, order management, and supply chain optimization.
             </p>
             <div className="flex flex-col gap-4 sm:flex-row">
-              {/* <Button size="lg" className="group">
-                Start Building
+              <Button size="lg" className="group">
+                Request a Demo
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
               <Button variant="outline" size="lg">
-                View Documentation
-              </Button> */}
+                Explore Features
+              </Button>
             </div>
           </div>
           {/* Right Section */}
           <div className="grid gap-6 sm:grid-cols-2">
             {/* Card 1 */}
             <Card className="border-none bg-primary/5 p-6">
-              <LineChart className="mb-4 h-8 w-8 text-primary" />
-              <h3 className="mb-2 font-semibold">Strategy Design</h3>
+              <ShoppingCart className="mb-4 h-8 w-8 text-primary" />
+              <h3 className="mb-2 font-semibold">Automated Ordering</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Visual strategy builder
+                Streamline procurement with ordering tools.
               </p>
             </Card>
             {/* Card 2 */}
             <Card className="border-none bg-primary/5 p-6">
-              <BarChart className="mb-4 h-8 w-8 text-primary" />
-              <h3 className="mb-2 font-semibold">Backtesting</h3>
+              <TrendingUp className="mb-4 h-8 w-8 text-primary" />
+              <h3 className="mb-2 font-semibold">Demand Forecasting</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Historical performance analysis
+                Predict future demand with data-driven insights.
               </p>
             </Card>
             {/* Card 3 */}
             <Card className="border-none bg-primary/5 p-6">
-              <PieChart className="mb-4 h-8 w-8 text-primary" />
-              <h3 className="mb-2 font-semibold">Risk Analysis</h3>
+              <FileText className="mb-4 h-8 w-8 text-primary" />
+              <h3 className="mb-2 font-semibold">Contract Management</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Advanced risk metrics
+                Centralized tools for managing supplier contracts.
               </p>
             </Card>
             {/* Card 4 */}
             <Card className="border-none bg-primary/5 p-6">
-              <TrendingUp className="mb-4 h-8 w-8 text-primary" />
-              <h3 className="mb-2 font-semibold">Live Trading</h3>
+              <Settings className="mb-4 h-8 w-8 text-primary" />
+              <h3 className="mb-2 font-semibold">Process Automation</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Real-time execution
+                Automate repetitive tasks to save time and reduce errors.
               </p>
             </Card>
           </div>
