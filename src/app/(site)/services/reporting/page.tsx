@@ -8,7 +8,7 @@ function page() {
   return (
 <>
 <Breadcrumb pageName='Reporting services'/>
-{/* <HeroReporting/> */}
+<HeroReporting/>
 <ReportTypes/>
 <Features/>
 </>  )

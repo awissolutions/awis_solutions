@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { LineChart as LineChartIcon,  Download, AlertCircle, Users } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 
