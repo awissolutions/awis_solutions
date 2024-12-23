@@ -6,8 +6,14 @@ import Hero from '@/components/services/Erp/Hero'
 import Implementation from '@/components/services/Erp/Implementation'
 import ServicesOverview from '@/components/services/Erp/ServicesOverview'
 import Testimonials from '@/components/services/Erp/Testimonial'
-import { Cat } from 'lucide-react'
 import React from 'react'
+export const metadata: Metadata = {
+  title: "Services | ERP  ",
+  description: "ERP services",
+};
+
+
+
 
 function page() {
   return (
