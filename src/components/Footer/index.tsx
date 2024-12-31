@@ -188,7 +188,7 @@ const Footer = () => {
                     href="/services/accounting"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    accounting
+                    Accounting
                   </a>
                 </li>
                 <li>
@@ -196,7 +196,7 @@ const Footer = () => {
                     href="/services/reporting"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    reporting
+                    Reporting
                   </a>
                 </li>
                 <li>
@@ -204,7 +204,7 @@ const Footer = () => {
                     href="/services/bookkeeping"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    bookkeeping
+                    Bookkeeping
                   </a>
                 </li>
                 <li>
@@ -220,7 +220,7 @@ const Footer = () => {
                     href="/services/demand-procurement-management"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    demand-procurement-management
+                    Demand-Procurement-Management
                   </a>
                 </li>
                 <li>
@@ -228,7 +228,7 @@ const Footer = () => {
                     href="/services/electronic-design-automation"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    electronic-design-automation
+                    Electronic-Design-Automation
                   </a>
                 </li>
               </ul>
