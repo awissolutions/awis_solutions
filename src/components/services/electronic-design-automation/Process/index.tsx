@@ -6,22 +6,22 @@ export default function Process() {
     {
       icon: <Settings className="h-6 w-6 text-primary" />,
       title: "Design Strategy",
-      description: "Build your trading strategy using visual tools or code",
+      description: "Define your mechanical design requirements and strategy using advanced CAD tools and iLogic scripting.",
     },
     {
       icon: <ZoomIn className="h-6 w-6 text-primary" />,
-      title: "Backtest",
-      description: "Test performance against historical market data",
+      title: "Automation Setup",
+      description: "Configure iLogic rules to automate the generation of 2D drawings, 3D models, and key design data.",
     },
     {
       icon: <Shield className="h-6 w-6 text-primary" />,
-      title: "Optimize",
-      description: "Fine-tune parameters and risk controls",
+      title: "Test & Validate",
+      description: "Test your automated design scripts to ensure accuracy, reliability, and performance under different conditions.",
     },
     {
       icon: <GitBranch className="h-6 w-6 text-primary" />,
-      title: "Deploy",
-      description: "Launch your strategy in live markets",
+      title: "Deploy & Iterate",
+      description: "Deploy automated design workflows and iterate rapidly based on feedback and design changes.",
     },
   ];
 
@@ -30,10 +30,10 @@ export default function Process() {
       <div className="container mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto mb-16 max-w-2xl text-center">
           <h2 className="mb-4 text-3xl font-bold text-gray-900 dark:text-white">
-            From Strategy to Execution
+            From Design to Automation Execution
           </h2>
           <p className="text-gray-600 dark:text-gray-300">
-            Streamlined workflow for algorithmic trading development
+            Streamlined workflow for CAD automation and iLogic design scripting
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-4">

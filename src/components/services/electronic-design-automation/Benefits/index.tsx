@@ -19,21 +19,25 @@ export default function Benefits() {
           {/* Left Section */}
           <div className="space-y-8">
             <h2 className="text-3xl font-bold leading-tight text-gray-900 dark:text-white">
-              Platform Benefits
+              Design Automation Benefits
             </h2>
             <div className="space-y-6">
               {[
                 {
-                  title: "Rapid Strategy Development",
-                  description: "Build and test strategies in minutes, not days",
+                  title: "Faster Design Iterations",
+                  description: "Accelerate your product development with automated design updates using iLogic scripting.",
                 },
                 {
-                  title: "Comprehensive Analysis",
-                  description: "Deep insights into strategy performance and risks",
+                  title: "Increased Accuracy",
+                  description: "Reduce human errors by automating complex tasks, ensuring precise designs every time.",
                 },
                 {
-                  title: "Enterprise-Grade Security",
-                  description: "Bank-level security for your trading algorithms",
+                  title: "Streamlined Workflow",
+                  description: "Integrate CAD automation seamlessly into your existing design processes for greater efficiency.",
+                },
+                {
+                  title: "Enhanced Collaboration",
+                  description: "Share standardized templates and rules to enhance team collaboration and consistency.",
                 },
               ].map((benefit, index) => (
                 <div key={index} className="flex gap-4">
@@ -57,23 +61,23 @@ export default function Benefits() {
             {[
               {
                 icon: <Clock className="w-8 h-8 text-primary" />,
-                stat: "10ms",
-                label: "Execution Speed",
+                stat: "2x Faster",
+                label: "Design Updates",
               },
               {
                 icon: <Shield className="w-8 h-8 text-primary" />,
                 stat: "99.9%",
-                label: "Uptime",
+                label: "Automation Reliability",
               },
               {
                 icon: <Database className="w-8 h-8 text-primary" />,
-                stat: "50+",
-                label: "Data Sources",
+                stat: "100+ Templates",
+                label: "Design Libraries",
               },
               {
                 icon: <TrendingUp className="w-8 h-8 text-primary" />,
                 stat: "24/7",
-                label: "Monitoring",
+                label: "Automated Monitoring",
               },
             ].map((item, index) => (
               <Card key={index} className="p-6 text-center bg-primary/5 border-none">

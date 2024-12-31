@@ -7,35 +7,34 @@ const Faq = () => {
 
   const faqData = [
     {
-      question: "What exactly do your accounting services cover?",
+      question: "What is Design Automation & Inventor iLogic?",
       answer:
-        "Our comprehensive accounting services include bookkeeping, financial reporting, tax preparation, payroll management, and strategic financial planning for businesses of all sizes.",
+        "Design Automation using Inventor iLogic is a process of automating design tasks within CAD software, specifically Autodesk Inventor, using iLogic rules and scripts to streamline workflows, enhance productivity, and reduce manual errors in the design process.",
     },
     {
-      question:
-        "How are your accounting services different from traditional bookkeeping?",
+      question: "How can iLogic improve my design process?",
       answer:
-        "Unlike traditional bookkeeping, we offer a modern, technology-driven approach with real-time financial insights, automated processes, and strategic advisory services beyond basic number tracking.",
+        "iLogic enables the automation of repetitive tasks such as model generation, drawing creation, and design updates. This reduces time spent on manual design changes, improves consistency across designs, and allows for faster iterations, leading to increased productivity.",
     },
     {
-      question: "Do I need to switch to your software to use your services?",
+      question: "Do I need to be an expert in Inventor to use iLogic?",
       answer:
-        "No, we integrate with most popular accounting software platforms and can work with your existing systems while providing our comprehensive service package.",
+        "While having a basic understanding of Autodesk Inventor helps, iLogic is designed to be user-friendly for engineers. With its rule-based system, you can automate design tasks without needing advanced programming skills. However, some scripting knowledge can enhance your capabilities.",
     },
     {
-      question: "How much do your accounting services cost?",
+      question: "Can iLogic integrate with my existing designs?",
       answer:
-        "Our pricing is tailored to your business needs, with packages starting at competitive rates. Contact us for a customized quote based on your requirements.",
+        "Yes, iLogic can be integrated with existing designs and templates within Autodesk Inventor. You can automate common design tasks across your current projects, making it easier to manage revisions and design iterations.",
     },
     {
-      question: "How involved will I need to be in the accounting process?",
+      question: "What are the benefits of automating CAD designs?",
       answer:
-        "We aim to minimize your involvement while keeping you informed. You'll have access to real-time updates but won't need to handle day-to-day accounting tasks.",
+        "Automating CAD designs with iLogic allows for faster design iterations, improved accuracy, and reduced manual errors. Additionally, it saves time by automating repetitive tasks and helps ensure that designs remain consistent across different teams and projects.",
     },
     {
-      question: "Can your accounting services help me if I'm being audited?",
+      question: "How do I get started with Design Automation & iLogic?",
       answer:
-        "Yes, we provide full audit support including documentation preparation, representation, and guidance throughout the audit process.",
+        "To get started with Design Automation & iLogic, you can begin by identifying common design tasks that can be automated. Then, you can create or modify existing iLogic rules and scripts in Autodesk Inventor. If you need assistance, our team can help you integrate automation into your existing workflow.",
     },
   ];
 
@@ -44,10 +43,10 @@ const Faq = () => {
       <div className="container mx-auto max-w-3xl px-4 sm:px-6">
         <div className="mb-12 text-center">
           <h2 className="mb-3 text-2xl font-bold leading-tight text-dark dark:text-white sm:text-3xl md:text-[40px]">
-            FAQ on Our Accounting Services
+            FAQ on Design Automation & Inventor iLogic
           </h2>
           <p className="text-base leading-relaxed text-body-color dark:text-white">
-            The most frequently asked questions about our services.
+            Frequently asked questions about our design automation services and iLogic scripting.
           </p>
         </div>
 

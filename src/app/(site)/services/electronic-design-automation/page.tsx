@@ -4,8 +4,8 @@ import Hero from '@/components/services/electronic-design-automation/Hero'
 import React from 'react'
 import Benefits from '@/components/services/electronic-design-automation/Benefits'
 import Process from '@/components/services/electronic-design-automation/Process'
-import CallToAction from '@/components/CallToAction'
 import FAQ from '@/components/services/electronic-design-automation/FAQ'
+import CTA from '@/components/services/electronic-design-automation/CTA'
 
 function page() {
   return (
@@ -16,7 +16,7 @@ function page() {
 <Process/>
 <Benefits/>
 <FAQ/>
-<CallToAction/>
+<CTA/>
 </>
   )
 }
