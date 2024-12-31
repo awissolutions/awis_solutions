@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 const Footer = () => {
   return (
     <footer
@@ -110,32 +111,32 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/#"
+                    href="/pricing"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Features
+                    Pricing
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/#"
+                    href="/services"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    About
+                    Services
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/#"
+                    href="/contact"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Testimonial
+                    Contact us
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
+          {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
                 Features
@@ -175,43 +176,59 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
-                Our Products
+                Our Services
               </h4>
               <ul>
                 <li>
                   <a
-                    href="/#"
+                    href="/services/accounting"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    LineIcons
+                    accounting
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/#"
+                    href="/services/reporting"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Next.js Templates
+                    reporting
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/#"
+                    href="/services/bookkeeping"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    TailAdmin
+                    bookkeeping
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/#"
+                    href="/services/erp-implementation"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    PlainAdmin
+                    ERP
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/services/demand-procurement-management"
+                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                  >
+                    demand-procurement-management
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/services/electronic-design-automation"
+                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                  >
+                    electronic-design-automation
                   </a>
                 </li>
               </ul>
@@ -223,17 +240,17 @@ const Footer = () => {
                 Useful Links
               </h4>
               <ul>
-                <li>
+                {/* <li>
                   <a
-                    href="/#"
+                    href="/Faq"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     FAQ
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
-                    href="https://blog.awissolutions.com"
+                    href="https:/blog.awissolutions.com"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Blogs
@@ -241,7 +258,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/#"
+                    href="/contact"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Support
@@ -249,7 +266,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/#"
+                    href="/about"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     About
