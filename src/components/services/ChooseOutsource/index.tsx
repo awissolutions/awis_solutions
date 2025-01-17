@@ -22,14 +22,14 @@ const ChooseOutsource = () => {
 
           {/* Content Section */}
           <div className="w-full lg:w-1/2 mt-11">
-            <h2 className="text-dark dark:text-white mb-6 text-3xl font-bold leading-tight sm:text-4xl md:text-[40px]">
+            <h2 className="text-dark dark:text-white mb-6 text-3xl font-bold leading-normal sm:text-4xl md:text-[40px]">
               Why Choose Outsourced Accounting Services?
             </h2>
             
             <p className="text-body-color dark:text-white text-base leading-relaxed mb-8">
               The value of professional accounting services is undeniable. Outsourced accounting 
               is essential for business efficiency, from maintaining accurate financial records to 
-              providing strategic insights. Partnering with indinero offers added advantages:
+              providing strategic insights.
             </p>
 
             <ul className="space-y-4">
