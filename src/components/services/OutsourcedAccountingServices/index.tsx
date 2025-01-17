@@ -61,13 +61,13 @@ export default function AccountingServicesPage() {
       icon: "💡",
       title: "Revenue Recognition and Compliance",
       content:
-        "Navigate the complex landscape of revenue recognition with our specialized consulting services. We dive deep into your unique business model, crafting tailored sales workflows that meet ASC 606 standards. Our expert team implements automated integrations that eliminate manual errors and provide real-time financial visibility.",
+        "Navigate the complex landscape of revenue recognition with our specialized consulting services. We dive deep into your unique business model, crafting tailored sales workflows that meet IFRS 15 standards. Our expert team implements automated integrations that eliminate manual errors and provide real-time financial visibility.",
     },
     {
       icon: "📋",
       title: "Invoice Management and Collections",
       content:
-        "Optimize your cash flow with our comprehensive invoice management. We handle everything from generating and sending invoices to providing collections support. Our team performs weekly or monthly Point of Sale (POS) reconciliations, maintaining accuracy in your financial records while you focus on growing your business.",
+        "Optimize your cash flow with our comprehensive invoice management. We handle everything from generating and sending invoices to providing collections support. Our team performs weekly or monthly reconciliations, maintaining accuracy in your financial records while you focus on growing your business.",
     },
     {
       icon: "💸",
@@ -84,7 +84,7 @@ export default function AccountingServicesPage() {
   ];
 
   return (
-    <div className="dark:bg-dark pb-16 pt-16">
+    <div className="pb-16 pt-16 dark:bg-dark">
       <div className="container  rounded-3xl border p-6 dark:bg-dark	">
         {/* Header Grid */}
         <div className="mb-10 grid gap-6 md:grid-cols-[2fr_3fr]">
