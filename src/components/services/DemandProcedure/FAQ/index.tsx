@@ -45,7 +45,7 @@ const Faq = () => {
       <div className="container mx-auto max-w-3xl px-4 sm:px-6">
         <div className="mb-12 text-center">
           <h2 className="mb-3 text-2xl font-bold leading-tight text-dark dark:text-white sm:text-3xl md:text-[40px]">
-            FAQ on Our Accounting Services
+            FAQ about our Demand Procurement Services
           </h2>
           <p className="text-base leading-relaxed text-body-color dark:text-white">
             The most frequently asked questions about our services.
