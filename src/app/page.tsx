@@ -38,8 +38,8 @@ export default function Home() {
       <About />
       <Boarding />
       <CallToAction />
-      <Pricing />
-      <Testimonials />
+      {/* <Pricing /> */}
+      {/* <Testimonials /> */}
       <Faq />
       <Team />
       {/* <HomeBlogSection posts={posts} /> */}
