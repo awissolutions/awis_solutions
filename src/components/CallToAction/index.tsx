@@ -19,7 +19,7 @@ const CallToAction = () => {
                 Start Your Journey Today!
                 </p>
                 <Link
-                  href="/"
+                  href="/contact"
                   className="inline-block rounded-md border border-transparent bg-white px-7 py-3 text-base font-medium text-dark transition hover:bg-stone-200"
                 >
                   Schedule a consultation
