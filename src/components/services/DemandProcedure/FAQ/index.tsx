@@ -7,37 +7,38 @@ const Faq = () => {
 
   const faqData = [
     {
-      question: "What exactly do your accounting services cover?",
+      question: "What do your procurement services include?",
       answer:
-        "Our comprehensive accounting services include bookkeeping, financial reporting, tax preparation, payroll management, and strategic financial planning for businesses of all sizes.",
+        "Our comprehensive procurement services cover vendor sourcing, contract negotiation, purchase order management, supply chain optimization, and ongoing vendor performance monitoring.",
     },
     {
       question:
-        "How are your accounting services different from traditional bookkeeping?",
+        "How are your procurement services different from traditional purchasing departments?",
       answer:
-        "Unlike traditional bookkeeping, we offer a modern, technology-driven approach with real-time financial insights, automated processes, and strategic advisory services beyond basic number tracking.",
+        "Unlike traditional purchasing departments, we leverage advanced tools, data-driven strategies, and market insights to deliver cost savings, efficiency, and enhanced supplier relationships.",
     },
     {
-      question: "Do I need to switch to your software to use your services?",
+      question: "Do I need to switch to a specific system to use your services?",
       answer:
-        "No, we integrate with most popular accounting software platforms and can work with your existing systems while providing our comprehensive service package.",
+        "No, we integrate seamlessly with your existing procurement systems and platforms, ensuring a smooth transition and minimal disruption to your operations.",
     },
     {
-      question: "How much do your accounting services cost?",
+      question: "How much do your procurement services cost?",
       answer:
-        "Our pricing is tailored to your business needs, with packages starting at competitive rates. Contact us for a customized quote based on your requirements.",
+        "Our pricing is customized to align with your business goals and procurement needs. Contact us to discuss your requirements and receive a tailored quote.",
     },
     {
-      question: "How involved will I need to be in the accounting process?",
+      question: "How involved will I need to be in the procurement process?",
       answer:
-        "We aim to minimize your involvement while keeping you informed. You'll have access to real-time updates but won't need to handle day-to-day accounting tasks.",
+        "We manage the majority of the procurement process, keeping you updated with key insights and decisions while minimizing your day-to-day involvement.",
     },
     {
-      question: "Can your accounting services help me if I'm being audited?",
+      question: "Can your procurement services help if I have supply chain issues?",
       answer:
-        "Yes, we provide full audit support including documentation preparation, representation, and guidance throughout the audit process.",
+        "Yes, we specialize in resolving supply chain challenges, offering solutions such as alternative vendor sourcing, risk management, and process optimization to ensure smooth operations.",
     },
   ];
+
 
   return (
     <section className="font-inter bg-white pb-20 pt-20 dark:bg-dark lg:pb-[120px] lg:pt-[120px]">
