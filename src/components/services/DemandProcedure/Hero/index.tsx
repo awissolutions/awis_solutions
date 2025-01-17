@@ -25,7 +25,7 @@ export default function Hero() {
             <p className="text-xl text-gray-600 dark:text-gray-300">
               End-to-end solutions for efficient demand forecasting, order management, and supply chain optimization.
             </p>
-            <div className="flex flex-col gap-4 sm:flex-row">
+            {/* <div className="flex flex-col gap-4 sm:flex-row">
               <Button size="lg" className="group">
                 Request a Demo
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -33,7 +33,7 @@ export default function Hero() {
               <Button variant="outline" size="lg">
                 Explore Features
               </Button>
-            </div>
+            </div> */}
           </div>
           {/* Right Section */}
           <div className="grid gap-6 sm:grid-cols-2">
