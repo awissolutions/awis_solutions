@@ -20,7 +20,7 @@ const AccountingFaq = () => {
     {
       question: "Do I need to switch to your software to use your services?",
       answer:
-        "No, we integrate with most popular accounting software platforms and can work with your existing systems while providing our comprehensive service package.",
+        "No, we work with your existing systems while providing our comprehensive service package.",
     },
     {
       question: "How much do your accounting services cost?",
