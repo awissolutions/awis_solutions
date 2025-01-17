@@ -13,8 +13,8 @@ const Accounting = () => {
           Gain clarity and control over your business finances with our
           comprehensive accounting services, freeing you to focus on growth.
         </p>
-        <button className="mt-6 bg-white text-black  py-3 px-6 rounded hover:bg-slate-100">
-          Schedule a Consultation
+        <button className="mt-6 bg-white text-black  py-3 px-6 rounded hover:bg-slate-100 dark: bg-dark:text-black">
+           <a href="/contact">Schedule a Consultation</a>
         </button>
       </div>
 

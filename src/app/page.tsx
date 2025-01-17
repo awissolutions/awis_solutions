@@ -40,7 +40,7 @@ export default function Home() {
       <CallToAction />
       {/* <Pricing /> */}
       {/* <Testimonials /> */}
-      <Faq />
+      {/* <Faq /> */}
       <Team />
       {/* <HomeBlogSection posts={posts} /> */}
       <Contact />

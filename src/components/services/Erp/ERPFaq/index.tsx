@@ -7,35 +7,34 @@ const ERPFaq = () => {
 
   const faqData = [
     {
-      question: "What exactly do your reporting services cover?",
+      question: "What exactly do your ERP solutions cover?",
       answer:
-        "Our comprehensive reporting services include bookkeeping, financial reporting, tax preparation, payroll management, and strategic financial planning for businesses of all sizes.",
+        "Our comprehensive ERP solutions include streamlined financial reporting, inventory management, supply chain optimization, CRM integration, and tailored business analytics to drive efficiency and growth.",
     },
     {
-      question:
-        "How are your reporting services different?",
+      question: "How are your ERP solutions different from traditional systems?",
       answer:
-        "Unlike traditional reporting, we offer a modern, technology-driven approach with real-time financial insights, automated processes, and strategic advisory services beyond basic number tracking.",
+        "Unlike traditional systems, our ERP solutions leverage cutting-edge technology, real-time data integration, and a modular approach that adapts to your unique business needs for a seamless experience.",
     },
     {
-      question: "Do I need to switch to your software to use your services?",
+      question: "Do I need to switch to a specific platform to use your ERP solutions?",
       answer:
-        "No, we integrate with most popular reporting software platforms and can work with your existing systems while providing our comprehensive service package.",
+        "No, our ERP solutions are highly flexible and integrate with most popular platforms, allowing you to enhance your existing systems without disruption.",
     },
     {
-      question: "How much do your reporting services cost?",
+      question: "How much do your ERP solutions cost?",
       answer:
-        "Our pricing is tailored to your business needs, with packages starting at competitive rates. Contact us for a customized quote based on your requirements.",
+        "Our pricing is tailored to your business requirements, with scalable packages designed to fit businesses of all sizes. Contact us for a personalized quote.",
     },
     {
-      question: "How involved will I need to be in the reporting process?",
+      question: "How involved will I need to be in the ERP implementation process?",
       answer:
-        "We aim to minimize your involvement while keeping you informed. You'll have access to real-time updates but won't need to handle day-to-day reporting tasks.",
+        "We handle the majority of the implementation process, providing regular updates and involving you only in key decisions to ensure a smooth and hassle-free transition.",
     },
     {
-      question: "Can your reporting services help me if I'm being audited?",
+      question: "Can your ERP solutions help me resolve operational challenges?",
       answer:
-        "Yes, we provide full audit support including documentation preparation, representation, and guidance throughout the audit process.",
+        "Yes, our ERP solutions are designed to address operational inefficiencies, streamline workflows, and provide actionable insights to overcome challenges and drive success.",
     },
   ];
 
@@ -44,7 +43,7 @@ const ERPFaq = () => {
       <div className="container mx-auto max-w-3xl px-4 sm:px-6">
         <div className="mb-12 text-center">
           <h2 className="mb-3 text-2xl font-bold leading-tight text-dark dark:text-white sm:text-3xl md:text-[40px]">
-            FAQ about our reporting Services
+            FAQ about our ERP Services
           </h2>
           <p className="text-base leading-relaxed text-body-color dark:text-white">
             The most frequently asked questions about our services.

@@ -22,7 +22,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-8 max-w-[270px] text-base text-gray-7">
-              We provide accurate and efficient bookkeeping solutions for businesses and organizations through the use of reliable financial management tools and technology.
+              We provide accurate and efficient solutions for businesses and organizations through the use of reliable financial management tools and technology.
               </p>
               <div className="-mx-3 flex items-center">
                 <a

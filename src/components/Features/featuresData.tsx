@@ -17,9 +17,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Audit and Assurance Services",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "Bookkeeping and Reporting",
+    paragraph: "",
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -38,9 +38,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Tax Advisory and Compliance",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "Demand and procurement management",
+    paragraph: "",
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -91,9 +91,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Bookkeeping",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "Electronic Design Atomation",
+    paragraph: "",
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -124,9 +124,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "All Essential Integrations",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "ERP Implementation and Consultation",
+    paragraph: "",
+    btn: "",
     btnLink: "/#",
   },
 ];
