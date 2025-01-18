@@ -1,12 +1,13 @@
 import { Client } from "@/types/client";
 export const clientsData: Client[] = [
-  {
-    id: 1,
-    title: "xero",
-    logo: "/images/brands/xero.svg",
-    logoWhite: "/images/brands/xero.svg",
-    link: "https://xero.com/",
-  },
+  
+    {
+      id: 1,
+      title: "Wave",
+      logo: "/images/brands/wave.svg",
+      logoWhite: "/images/brands/wave_dark.svg",
+      link: "https://www.waveapps.com/",
+    },
   {
     id: 2,
     title: "quickBooks",
@@ -27,13 +28,12 @@ export const clientsData: Client[] = [
     logo: "/images/brands/zoho-1.svg",
     logoWhite: "/images/brands/zoho-1.svg",
     link: "https://zohobooks.com/",
-  },
-  {
+  },{
     id: 5,
-    title: "Wave",
-    logo: "/images/brands/wave.svg",
-    logoWhite: "/images/brands/wave_dark.svg",
-    link: "https://www.waveapps.com/",
+    title: "xero",
+    logo: "/images/brands/xero.svg",
+    logoWhite: "/images/brands/xero.svg",
+    link: "https://xero.com/",
   },
   {
     id: 6,
@@ -41,6 +41,13 @@ export const clientsData: Client[] = [
     logo: "/images/brands/sap.svg",
     logoWhite: "/images/brands/sap.svg",
     link: "https://www.sap.com/",
+  },
+  {
+    id: 7,
+    title: "surf",
+    logo: "/images/brands/surf.png",
+    logoWhite: "/images/brands/surf.png",
+    link: "https://www.surfaccounts.com/",
   },
 
 ];
