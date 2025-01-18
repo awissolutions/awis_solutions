@@ -42,11 +42,5 @@ export const clientsData: Client[] = [
     logoWhite: "/images/brands/sap.svg",
     link: "https://www.sap.com/",
   },
-  {
-    id: 7,
-    title: "Wave",
-    logo: "/images/brands/wave.svg",
-    logoWhite: "/images/brands/wave_dark.svg",
-    link: "https://www.waveapps.com/",
-  },
+
 ];
