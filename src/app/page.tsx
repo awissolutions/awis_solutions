@@ -20,7 +20,7 @@ import Accounting from "@/components/services/Accounting";
 // export const runtime = "edge";
 
 export const metadata: Metadata = {
-  title: "awis solutions",
+  title: "Awis Solutions",
   description: "awis solutions,financial management to help your business grow and thrive",
 };
 
