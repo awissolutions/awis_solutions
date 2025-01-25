@@ -12,7 +12,7 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                  Effortless Solutions to Simplify Your Bookkeeping Tasks.
+                  Effortless Solutions to Simplify Your Tasks.
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
                   Discover tools and strategies to streamline financial
@@ -21,7 +21,7 @@ const About = () => {
                   reduce errors. Take control of your business finances with
                   ease.
                   <br /> <br />
-                  Empower your business with tailored bookkeeping solutions that
+                  Empower your business with tailored solutions that
                   enhance accuracy and efficiency.
                 </p>
 
