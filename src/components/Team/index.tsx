@@ -7,7 +7,7 @@ const teamData: TeamType[] = [
     id: 1,
     name: "Adveen Desuza",
     designation: "UI Designer",
-    image: "/images/team/team-01.png",
+    image: "/images/team/waqar.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
@@ -16,7 +16,7 @@ const teamData: TeamType[] = [
     id: 2,
     name: "Jezmin uniya",
     designation: "Product Designer",
-    image: "/images/team/team-02.png",
+    image: "/images/team/team-2.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
@@ -25,20 +25,20 @@ const teamData: TeamType[] = [
     id: 3,
     name: "Andrieo Gloree",
     designation: "App Developer",
-    image: "/images/team/team-03.png",
+    image: "/images/team/awis2.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
   },
-  {
-    id: 4,
-    name: "Jackie Sanders",
-    designation: "Content Writer",
-    image: "/images/team/team-04.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
-  },
+  // {
+  //   id: 4,
+  //   name: "Jackie Sanders",
+  //   designation: "Content Writer",
+  //   image: "/images/team/team-04.png",
+  //   facebookLink: "/#",
+  //   twitterLink: "/#",
+  //   instagramLink: "/#",
+  // },
 ];
 
 const Team = () => {
@@ -52,7 +52,7 @@ const Team = () => {
           <SectionTitle
             subtitle="Our Team"
             title="Meet Our Team"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph=""
             width="640px"
             center
           />
