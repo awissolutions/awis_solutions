@@ -237,6 +237,8 @@ const SingleTeam = ({ team }: { team: TeamType }) => {
             </svg>
           </span>
         </div>
+        {/* social links below */}
+        {/**/}
         <div className="text-center">
           <h3 className="mb-1 text-lg font-semibold text-dark dark:text-white">
             {name}
@@ -244,6 +246,7 @@ const SingleTeam = ({ team }: { team: TeamType }) => {
           <p className="mb-5 text-sm text-body-color dark:text-dark-6">
             {designation}
           </p>
+          {/*  
           <div className="flex items-center justify-center gap-5">
             <a
               aria-label="social link"
@@ -310,7 +313,7 @@ const SingleTeam = ({ team }: { team: TeamType }) => {
                 />
               </svg>
             </a>
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>

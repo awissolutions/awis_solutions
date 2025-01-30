@@ -6,7 +6,7 @@ const teamData: TeamType[] = [
   {
     id: 1,
     name: "Waqar Ahmed Syed",
-    designation: "Accountant",
+    designation: "ERP Implementation Expert",
     image: "/images/team/waqar.png",
     facebookLink: "/#",
     twitterLink: "/#",
@@ -16,7 +16,7 @@ const teamData: TeamType[] = [
   {
     id: 2,
     name: "Sheraz Hashmi",
-    designation: "Accountant",
+    designation: "Accounting and Finance Specialist",
     image: "/images/team/sheraz.png",
     facebookLink: "/#",
     twitterLink: "/#",
@@ -26,8 +26,8 @@ const teamData: TeamType[] = [
   },
   {
     id: 3,
-    name: "Andrieo Gloree",
-    designation: "UI Designer",
+    name: "Adnan Zahid",
+    designation: "Demand and Procurement Manager",
     image: "/images/team/awis2.png",
     facebookLink: "/#",
     twitterLink: "/#",
