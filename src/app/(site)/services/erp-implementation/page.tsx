@@ -5,7 +5,7 @@ import ERPFaq from '@/components/services/Erp/ERPFaq'
 import Hero from '@/components/services/Erp/Hero'
 import Implementation from '@/components/services/Erp/Implementation'
 import ServicesOverview from '@/components/services/Erp/ServicesOverview'
-import Testimonials from '@/components/services/Erp/Testimonial'
+// import Testimonials from '@/components/services/Erp/Testimonial'
 import { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ function page() {
 <Hero/>
 <ServicesOverview/>
 <Implementation/>
-<Testimonials/>
+{/* <Testimonials/> */}
 <Benefits/>
 <ERPFaq/>
 <CTA/>
