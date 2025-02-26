@@ -37,7 +37,7 @@ const teamData: TeamType[] = [
   },
   {
     id: 4,
-    name: "Jackie Sanders",
+    name: "Ikram Younas",
     designation: "Corporate Reporting and ERP Consultant",
     image: "/images/team/user4.jpg",
     facebookLink: "/#",
