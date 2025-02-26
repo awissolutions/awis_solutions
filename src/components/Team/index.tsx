@@ -35,22 +35,23 @@ const teamData: TeamType[] = [
     linkedinLink:"/#"
 
   },
-  // {
-  //   id: 4,
-  //   name: "Jackie Sanders",
-  //   designation: "Content Writer",
-  //   image: "/images/team/team-04.png",
-  //   facebookLink: "/#",
-  //   twitterLink: "/#",
-  //   instagramLink: "/#",
-  // },
+  {
+    id: 4,
+    name: "Jackie Sanders",
+    designation: "Corporate Reporting and ERP ",
+    image: "/images/team/user4.jpg",
+    facebookLink: "/#",
+    twitterLink: "/#",
+    instagramLink: "/#",
+    linkedinLink: "/#"
+  },
 ];
 
 const Team = () => {
   return (
     <section
       id="team"
-      className="overflow-hidden bg-gray-1 pb-12 pt-20 dark:bg-dark-2 lg:pb-[90px] lg:pt-[120px]"
+      className="overflow-hidden bg-gray-1 pb-12 pt-2 dark:bg-dark-2 lg:pb-[90px] lg:pt-[120px]"
     >
       <div className="container">
         <div className="mb-[60px]">
@@ -63,7 +64,7 @@ const Team = () => {
           />
         </div>
 
-        <div className="-mx-4 flex flex-wrap justify-center">
+        <div className="-mx-4 flex flex-wrap justify-center ">
           {teamData.map((team, i) => (
             <SingleTeam key={i} team={team} />
           ))}
