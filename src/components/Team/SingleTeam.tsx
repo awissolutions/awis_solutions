@@ -243,7 +243,7 @@ const SingleTeam = ({ team }: { team: TeamType }) => {
           <h3 className="mb-1 text-sm font-semibold text-dark dark:text-white">
             {name}
           </h3>
-          <p className="mb-5 text-sm text-body-color dark:text-dark-6">
+          <p className="mb-5 text-xs text-body-color dark:text-dark-6">
             {designation}
           </p>
           {/*  

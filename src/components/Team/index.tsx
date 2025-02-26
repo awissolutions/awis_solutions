@@ -38,7 +38,7 @@ const teamData: TeamType[] = [
   {
     id: 4,
     name: "Jackie Sanders",
-    designation: "Corporate Reporting and ERP ",
+    designation: "Corporate Reporting and ERP Consultant",
     image: "/images/team/user4.jpg",
     facebookLink: "/#",
     twitterLink: "/#",
